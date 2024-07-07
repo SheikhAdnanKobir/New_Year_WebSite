@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.hed-content{
+    /* img declaration site */
+    background-color:rgba(0, 0, 0, 0.464);
+    background-image: url("../Assets/images/Banner\ Image.png");
+    background-size: cover;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+
+    /* dispaly tiype   */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* image height-with margin-padding site */
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 2px solid rebeccapurple;
+}
+.hed-content .hed-sub-titl{
+    color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 32px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0%;
+
+}
+.hed-content .hed-titl{
+    color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+line-height: 95px;
+letter-spacing: 0%;
+
+}
+
+.main-discount-content{
+    height: 800px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 0 auto;
+    margin-top: 120px;
+    margin-bottom: 120px;
+   
+}
+.main-discount-content .offer65{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 88px;
+padding-bottom: 50px;
+font-weight: 700;
+line-height: 107px;
+letter-spacing: 0%;
+}
+
+.main-sub-text{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.main-mid-text{
+    color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+letter-spacing: 0%;
+text-align: center;
+}
+.main-dis-img{
+    border: 1px dashed;
+}
+
+.main-content-2{
+    width: 1320px;
+    height: 600px;
+    border: 2px solid violet;
+    margin: 0 auto;
+}
